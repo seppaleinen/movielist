@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  helloreact:
+    container_name: "movielist"
+    build: .
+    image: seppaleinen/movielist
+    ports:
+      - "5000:5000"
+    command: serve -s build
