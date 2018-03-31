@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { Provider } from "mobx-react"
+import SuperDuper from "./mainpage"
 
-const App = () =>
-  <div>Hello</div>
+const App = () => <SuperDuper></SuperDuper>
 
 export default ReactDOM.render(<App/>, document.getElementById('root') || document.createElement('div'))
